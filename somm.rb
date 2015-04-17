@@ -61,10 +61,10 @@ end
 events = Events.new events_array
 
 # Event count by type
-# puts events.of_type(:s).count
+puts events.of_type(:s).count
 # puts events.of_type(:f).count
 
-puts events.print_frequency_by_day_of_type :s
+# puts events.print_frequency_by_day_of_type :s
 
 # puts events.all.map { |e| e.type_s }.uniq
 
